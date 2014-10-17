@@ -1,3 +1,8 @@
+To set up:
+  git clone https://github.com/gjx/vimfiles ~/vimfiles
+  git submodule init
+  git submodule update
+
 To install:
   git submodule add git://github.com/tpope/vim-pathogen bundle/vim-pathogen
 
