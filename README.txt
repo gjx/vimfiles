@@ -1,5 +1,6 @@
 To set up:
-  git clone https://github.com/gjx/vimfiles ~/vimfiles
+  git clone https://github.com/gjx/vimfiles %USERPROFILE%/vimfiles
+  cd vimfiles
   git submodule init
   git submodule update
 
