@@ -7,7 +7,6 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-
 set nobackup
 
 set scrolloff=3
@@ -37,6 +36,8 @@ set hidden
 set completeopt=menu,preview,menuone,longest
 
 if has("gui_running")
+  set guioptions-=m
+  set guioptions-=T
   if has("gui_win32")
     set guifont=Consolas:h10:cANSI
   endif
