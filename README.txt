@@ -1,4 +1,11 @@
-To set up:
+To set up on OS X/Linux:
+  git clone https://github.com/gjx/vimfiles ~/.vim
+  ln -s ~/.vim/vimrc .vimrc
+  cd .vim
+  git submodule init
+  git submodule update
+
+To set up on Windows:
   git clone https://github.com/gjx/vimfiles %USERPROFILE%/vimfiles
   cd vimfiles
   git submodule init
