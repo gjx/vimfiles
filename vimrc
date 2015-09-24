@@ -42,3 +42,7 @@ if has("gui_running")
     set guifont=Consolas:h10:cANSI
   endif
 endif
+
+" for vim-table-mode
+let g:table_mode_corner_corner="+"
+let g:table_mode_header_fillchar="="
