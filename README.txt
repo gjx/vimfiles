@@ -6,7 +6,8 @@ To set up on OS X/Linux:
   git submodule update
 
 To set up on Windows:
-  git clone https://github.com/gjx/vimfiles %USERPROFILE%/vimfiles
+  cd %USERPROFILE%
+  git clone https://github.com/gjx/vimfiles vimfiles
   cd vimfiles
   git submodule init
   git submodule update
