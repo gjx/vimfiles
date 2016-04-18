@@ -1,6 +1,7 @@
 To set up on OS X/Linux:
-  git clone https://github.com/gjx/vimfiles ~/.vim
-  ln -s ~/.vim/vimrc .vimrc
+  cd ~
+  git clone https://github.com/gjx/vimfiles .vim
+  ln -s .vim/vimrc .vimrc
   cd .vim
   git submodule init
   git submodule update
