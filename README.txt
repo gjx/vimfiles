@@ -14,12 +14,13 @@ To set up on Windows:
   git submodule update
 
 To install:
-  git submodule add git://github.com/tpope/vim-pathogen bundle/vim-pathogen
+  git submodule init
+  git submodule add https://github.com/tpope/vim-surround pack/plugins/start/vim-surround
 
 To update:
   git submodule foreach git pull origin master
 
 To remove:
-  git submodule deinit bundle/vim-pathogen
-  git rm bundle/vim-pathogen
-  git rm --cached bundle/vim-pathogen
+  git submodule deinit pack/plugins/start/vim-surround
+  git rm pack/plugins/start/vim-surround
+  git rm --cached pack/plugins/start/vim-surround
