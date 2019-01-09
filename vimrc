@@ -1,9 +1,6 @@
 colorscheme desert
 set nocompatible
 
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-
 syntax on
 filetype plugin indent on
 
@@ -41,7 +38,3 @@ if has("gui_running")
     set guifont=Consolas:h10:cANSI
   endif
 endif
-
-" for vim-table-mode
-let g:table_mode_corner_corner="+"
-let g:table_mode_header_fillchar="="
